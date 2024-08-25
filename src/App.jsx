@@ -1,3 +1,4 @@
+import Chip from "./components/Chip"
 import Features from "./components/Features"
 import Hero from "./components/Hero"
 import Highlights from "./components/Highlights"
@@ -13,6 +14,7 @@ const App = () => {
       <Highlights/>
       <Model/>
       <Features/>
+      <Chip/>
     </main>
   )
 }
